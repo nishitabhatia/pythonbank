@@ -15,7 +15,7 @@ def firstrec():
     f.close()
 def lastrec():
     f=open("bankdb.txt",'r')       
-    de=sum(1 for i in open("dept_db.txt"))
+    de=sum(1 for i in open("bankdb.txt"))
     print(de)
     k=f.readlines()[de]
     j=k.split()
